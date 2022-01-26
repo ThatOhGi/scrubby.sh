@@ -1,0 +1,39 @@
+#!/bin/bash
+
+# First Update and Upgrade
+# Then AutoClean and AutoRemove
+#Ending with a little welcome message
+echo Thank you for using scrubby.sh
+echo
+echo -----------RUNNING-APT-UPDATE----------
+echo
+echo
+sudo apt update
+echo
+echo
+echo -----------RUNNING-APT-UPGRADE----------
+echo
+echo
+sudo apt upgrade
+echo
+echo
+echo -----------RUNNING-APT-AUTOCLEAN---------
+echo
+echo
+sudo apt autoclean
+echo
+echo
+echo -----------RUNNING-APT-AUTOREMOVE---------
+echo
+echo
+sudo apt autoremove
+echo   
+echo   
+echo ----------SCRUBBY EMERGES VICTORIOUS----------
+echo
+echo
+#echo Scrubby has everything updated, upgraded, cleaned up, and ready to go.
+echo
+echo ----------NOW GO FORTH AND BE THE CHAOTIC GOOD YOU WANT TO SEE IN THE WORLD-----------
+
+# At a later time I want random responses on the echo output
