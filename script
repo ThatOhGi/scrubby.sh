@@ -29,6 +29,8 @@ echo
 sudo apt autoremove
 echo   
 echo   
+#Uncomment to run dist-upgrade
+#sudo apt dist-upgrade
 echo ----------SCRUBBY EMERGES VICTORIOUS----------
 echo
 echo
